@@ -1,0 +1,30 @@
+
+.sec2{
+    background-color: skyblue ;
+}
+
+.createPageDiv, .createUIDiv {
+    border: 1px solid skyblue;
+        box-shadow: 4px 4px 4px gray;
+}
+
+.sec2 col h2{
+    float: left;
+}
+
+#formFieldLabel{
+    font-size: 12px;
+}
+
+#additionalCommentsTextArea{
+    resize: vertical;
+}
+
+.required
+{
+    color: red;
+}
+
+.mandatoryMsg{
+    font-size: 10px;
+}

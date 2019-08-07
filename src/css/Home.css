@@ -1,0 +1,71 @@
+.myCard {
+    border: 3px solid lightsteelblue;
+    padding: 5px;
+     transition: transform .2s;
+     margin: 0 auto;
+     color: white;
+     width: 100%;
+     text-align: center;
+        cursor: pointer;
+            /*background-image:linear-gradient(160deg,#00ffff , #0099ff, #006699, #00ffff, #006699, 
+    #000066 50%, #003300 , #009933 , #000066, #006699,  #0099ff, #003366,#00ffff);*/
+
+}
+
+
+
+.open {
+    background-color: skyblue;
+}
+
+.cancelled {
+    background-color: skyblue;
+}
+
+.completed {
+    background-color: skyblue;
+}
+
+.overdue {
+    background-color: skyblue;
+}
+
+
+
+
+.myCard:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  /*z-index: 999;*/
+}
+
+
+
+
+#cardText{
+   text-align: center;
+    font-size: 60px;
+}
+
+button.btn.btn-info{
+    float:right;
+    margin-right: 100px;
+}
+
+.viewNEditTableHead{
+     background-color: skyblue;
+}
+
+#stickyButton{
+      position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+ 
+}
+
+#cardsRow {
+    height: 100%;
+    margin: 0px;
+}
+

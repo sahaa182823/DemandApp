@@ -1,0 +1,51 @@
+#resourceFulfillmentAutoPopulate{
+     border: 2px solid skyblue;
+        box-shadow: 4px 4px 4px gray;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+        font-size: 13px;
+}
+
+#outerDiv{
+        overflow-x:auto;
+}
+
+textarea{
+        overflow:hidden;
+        resize: horizontal;
+        resize:both;    
+        overflow: auto;
+
+      
+}
+
+#noOfRejection{
+        resize: both;
+}
+
+#resourceFulfillmentAutoPopulate{
+        font-size : 13px;
+        max-width: 90%;
+}
+
+#sow  {
+        width: 100px;
+        text-align: center;
+}
+
+#profile_Sent {
+        max-width: 70px;
+        /* text-align: center; */
+}
+
+
+
+.myCont {
+        
+        max-width: 90%;
+}

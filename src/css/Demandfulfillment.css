@@ -1,0 +1,5 @@
+.demandFullFillmentTableHead{
+    background-color: skyblue;
+}
+
+tr:nth-child(even) {background-color: powderblue;}
